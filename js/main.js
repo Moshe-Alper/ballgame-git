@@ -1,5 +1,6 @@
 'use strict'
 
 function onBallClick(elBall) {
-console.log('Hello')
+    elBall.style.width = parseInt(elBall.clientWidth) + 50 + 'px'
+    elBall.style.height = parseInt(elBall.clientHeight) + 50 + 'px'
 } 
