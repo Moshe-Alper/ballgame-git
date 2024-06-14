@@ -18,6 +18,8 @@ h1 {
     align-content: center;
     text-align: center;
 
-    font-size: 22px;
+    font-size:  1.375em;
     font-weight: bold;
+
+    transition: 1s;
 }
