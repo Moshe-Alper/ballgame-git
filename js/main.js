@@ -9,5 +9,7 @@ function onBallClick(elBall) {
         elBall.style.height = '100px'
         elBall.style.width = '100px'
     }
+
+    elBall.style.backgroundColor = getRandomColor()
     
 } 
