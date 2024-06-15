@@ -23,3 +23,21 @@ h1 {
 
     transition: 1s;
 }
+
+.second {
+    height: 100px;
+    width: 100px;
+
+    margin: 0 auto;
+
+    border-radius: 50%;
+    background-color: blue;
+
+    align-content: center;
+    text-align: center;
+
+    font-size:  1.375em;
+    font-weight: bold;
+
+    transition: 1s;
+}
