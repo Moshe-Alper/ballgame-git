@@ -1,11 +1,13 @@
 'use strict'
 
-function onBallClick(elBall) {
+function onBallClick(elBall, maxDiameter) {
+
     const randomNum = getRandomInt(20, 60)
     elBall.style.width = parseInt(elBall.clientWidth) + randomNum + 'px'
     elBall.style.height = parseInt(elBall.clientHeight) + randomNum + 'px'
 
-    if (parseInt(elBall.style.width) > 400 || parseInt(elBall.style.height) > 400) {
+    
+    if (parseInt(elBall.style.width) > maxDiameter || parseInt(elBall.style.height) > maxDiameter) {
         elBall.style.height = '100px'
         elBall.style.width = '100px'
     }
